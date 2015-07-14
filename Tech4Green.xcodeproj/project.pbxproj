@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE5B36631B54C1BB00317C4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5B36621B54C1BB00317C4A /* AppDelegate.swift */; };
+		CE5B36651B54C1BB00317C4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5B36641B54C1BB00317C4A /* ViewController.swift */; };
+		CE5B36681B54C1BB00317C4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE5B36661B54C1BB00317C4A /* Main.storyboard */; };
+		CE5B366A1B54C1BB00317C4A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE5B36691B54C1BB00317C4A /* Images.xcassets */; };
+		CE5B366D1B54C1BB00317C4A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE5B366B1B54C1BB00317C4A /* LaunchScreen.xib */; };
+		CE5B36791B54C1BB00317C4A /* Tech4GreenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5B36781B54C1BB00317C4A /* Tech4GreenTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE5B36731B54C1BB00317C4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE5B36551B54C1BB00317C4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE5B365C1B54C1BB00317C4A;
+			remoteInfo = Tech4Green;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE5B365D1B54C1BB00317C4A /* Tech4Green.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tech4Green.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE5B36611B54C1BB00317C4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE5B36621B54C1BB00317C4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE5B36641B54C1BB00317C4A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE5B36671B54C1BB00317C4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE5B36691B54C1BB00317C4A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CE5B366C1B54C1BB00317C4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CE5B36721B54C1BB00317C4A /* Tech4GreenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tech4GreenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE5B36771B54C1BB00317C4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE5B36781B54C1BB00317C4A /* Tech4GreenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tech4GreenTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE5B365A1B54C1BB00317C4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE5B366F1B54C1BB00317C4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE5B36541B54C1BB00317C4A = {
+			isa = PBXGroup;
+			children = (
+				CE5B365F1B54C1BB00317C4A /* Tech4Green */,
+				CE5B36751B54C1BB00317C4A /* Tech4GreenTests */,
+				CE5B365E1B54C1BB00317C4A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE5B365E1B54C1BB00317C4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE5B365D1B54C1BB00317C4A /* Tech4Green.app */,
+				CE5B36721B54C1BB00317C4A /* Tech4GreenTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE5B365F1B54C1BB00317C4A /* Tech4Green */ = {
+			isa = PBXGroup;
+			children = (
+				CE5B36621B54C1BB00317C4A /* AppDelegate.swift */,
+				CE5B36641B54C1BB00317C4A /* ViewController.swift */,
+				CE5B36661B54C1BB00317C4A /* Main.storyboard */,
+				CE5B36691B54C1BB00317C4A /* Images.xcassets */,
+				CE5B366B1B54C1BB00317C4A /* LaunchScreen.xib */,
+				CE5B36601B54C1BB00317C4A /* Supporting Files */,
+			);
+			path = Tech4Green;
+			sourceTree = "<group>";
+		};
+		CE5B36601B54C1BB00317C4A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE5B36611B54C1BB00317C4A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE5B36751B54C1BB00317C4A /* Tech4GreenTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE5B36781B54C1BB00317C4A /* Tech4GreenTests.swift */,
+				CE5B36761B54C1BB00317C4A /* Supporting Files */,
+			);
+			path = Tech4GreenTests;
+			sourceTree = "<group>";
+		};
+		CE5B36761B54C1BB00317C4A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE5B36771B54C1BB00317C4A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE5B365C1B54C1BB00317C4A /* Tech4Green */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE5B367C1B54C1BB00317C4A /* Build configuration list for PBXNativeTarget "Tech4Green" */;
+			buildPhases = (
+				CE5B36591B54C1BB00317C4A /* Sources */,
+				CE5B365A1B54C1BB00317C4A /* Frameworks */,
+				CE5B365B1B54C1BB00317C4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tech4Green;
+			productName = Tech4Green;
+			productReference = CE5B365D1B54C1BB00317C4A /* Tech4Green.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE5B36711B54C1BB00317C4A /* Tech4GreenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE5B367F1B54C1BB00317C4A /* Build configuration list for PBXNativeTarget "Tech4GreenTests" */;
+			buildPhases = (
+				CE5B366E1B54C1BB00317C4A /* Sources */,
+				CE5B366F1B54C1BB00317C4A /* Frameworks */,
+				CE5B36701B54C1BB00317C4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE5B36741B54C1BB00317C4A /* PBXTargetDependency */,
+			);
+			name = Tech4GreenTests;
+			productName = Tech4GreenTests;
+			productReference = CE5B36721B54C1BB00317C4A /* Tech4GreenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE5B36551B54C1BB00317C4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Technology4Green;
+				TargetAttributes = {
+					CE5B365C1B54C1BB00317C4A = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					CE5B36711B54C1BB00317C4A = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = CE5B365C1B54C1BB00317C4A;
+					};
+				};
+			};
+			buildConfigurationList = CE5B36581B54C1BB00317C4A /* Build configuration list for PBXProject "Tech4Green" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE5B36541B54C1BB00317C4A;
+			productRefGroup = CE5B365E1B54C1BB00317C4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE5B365C1B54C1BB00317C4A /* Tech4Green */,
+				CE5B36711B54C1BB00317C4A /* Tech4GreenTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE5B365B1B54C1BB00317C4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE5B36681B54C1BB00317C4A /* Main.storyboard in Resources */,
+				CE5B366D1B54C1BB00317C4A /* LaunchScreen.xib in Resources */,
+				CE5B366A1B54C1BB00317C4A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE5B36701B54C1BB00317C4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE5B36591B54C1BB00317C4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE5B36651B54C1BB00317C4A /* ViewController.swift in Sources */,
+				CE5B36631B54C1BB00317C4A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE5B366E1B54C1BB00317C4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE5B36791B54C1BB00317C4A /* Tech4GreenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE5B36741B54C1BB00317C4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE5B365C1B54C1BB00317C4A /* Tech4Green */;
+			targetProxy = CE5B36731B54C1BB00317C4A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE5B36661B54C1BB00317C4A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE5B36671B54C1BB00317C4A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE5B366B1B54C1BB00317C4A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE5B366C1B54C1BB00317C4A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE5B367A1B54C1BB00317C4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE5B367B1B54C1BB00317C4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE5B367D1B54C1BB00317C4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Tech4Green/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CE5B367E1B54C1BB00317C4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Tech4Green/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CE5B36801B54C1BB00317C4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Tech4GreenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tech4Green.app/Tech4Green";
+			};
+			name = Debug;
+		};
+		CE5B36811B54C1BB00317C4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Tech4GreenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tech4Green.app/Tech4Green";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE5B36581B54C1BB00317C4A /* Build configuration list for PBXProject "Tech4Green" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE5B367A1B54C1BB00317C4A /* Debug */,
+				CE5B367B1B54C1BB00317C4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE5B367C1B54C1BB00317C4A /* Build configuration list for PBXNativeTarget "Tech4Green" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE5B367D1B54C1BB00317C4A /* Debug */,
+				CE5B367E1B54C1BB00317C4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CE5B367F1B54C1BB00317C4A /* Build configuration list for PBXNativeTarget "Tech4GreenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE5B36801B54C1BB00317C4A /* Debug */,
+				CE5B36811B54C1BB00317C4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE5B36551B54C1BB00317C4A /* Project object */;
+}
